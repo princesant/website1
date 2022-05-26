@@ -43,9 +43,12 @@ footer{
     width: 50%;
 }
 
-.logo {
+.logo{
     color: deeppink;
     text-size: 23px;
     text-shadow: 5px, 5px, 5px, #2effe7;
 }
 
+#mainhead{
+    text-align: left;
+}
