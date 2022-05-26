@@ -1,6 +1,51 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Zen Loop', cursive;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: #242424;
+    color: white;
 }
+.wrapper{
+    display: flex;
+    position: relative;
+}
+nav{
+    height:100%;
+    background-color:#1f1f1f;
+    color: #d9d9d9;
+    border: 5px solid red;
+    width: 20%;
+    text-align: center;
+    display: block;
+    padding: 50px 0;
+}
+nav li{
+    list-style-type: none;
+}
+.navbar { 
+    text-decoration: none;
+    color: lightgrey;
+}
+
+nav a:hover{
+    color: #2effe7;
+}
+
+main{
+    border: 3px dotted hotpink;
+    font-size: xx-large;
+    width: 80%;
+    text-align: center;
+}
+
+footer{
+    border: 5px solid green;
+    width: 50%;
+}
+
+.logo {
+    color: deeppink;
+    text-size: 23px;
+    text-shadow: 5px, 5px, 5px, #2effe7;
+}
+
